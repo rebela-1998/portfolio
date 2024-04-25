@@ -1,0 +1,25 @@
+.dp{
+    display: flex;
+    width: 18vw;
+    height: 40vh;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 30%;
+    right: 20%;
+    border: 1px solid white;
+    border-radius: 50%;
+    border-right: 30%;
+    background-color: white;
+    /* box-shadow: 2px 2px 6px 5px rgb(252, 252, 251)  */
+
+}
+.mypic{
+    width: 88%;
+    height: 90%;
+    border-radius: 50%;
+    border: 1px solid rgb(247, 232, 99); 
+    background-color: rgb(247, 232, 99);
+    padding: 6px;
+    /* box-shadow: 2px 2px 6px 5px rgb(228, 228, 92)  */
+}

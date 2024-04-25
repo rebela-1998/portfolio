@@ -1,0 +1,23 @@
+.about{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 20vh;
+    left: 5vw;
+    right: 5vw;
+    color: rgba(255, 255, 255, 0.849);
+    row-gap: 3vh;
+    /* margin-bottom: 8vw; */
+}
+
+.about-me{
+   font-family: "Raleway", sans-serif;
+   font-size: 2em;
+   font-weight: 600;
+   color: rgb(247, 232, 99);
+}
+.bachelors,.more-details{
+    font-family: "Inter", sans-serif;
+     font-weight: 400;
+     font-size: 1em;
+}

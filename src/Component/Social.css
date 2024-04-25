@@ -1,0 +1,27 @@
+.icons{
+    display: flex;
+    position: absolute;
+    right: 2%;
+    top: 40%;
+    /* bottom: 10%; */
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 25%;
+    width: 4%;
+    justify-content: center;
+}
+.icon-list{
+    list-style-type: none;
+    display: flex;
+    width: auto;
+    row-gap: 1em;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mail-link{
+    color: black;
+    width: 30px;
+    height: 30px;
+}

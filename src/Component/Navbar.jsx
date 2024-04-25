@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -8,11 +9,11 @@ const Navbar = () => {
       <p className="designation">Frontend Developer</p>
       </div>
       <ul className="options">
-        <li className="index"><a className="index-link">Home</a></li>
-        <li className="index"><a className="index-link">About</a></li>
-        <li className="index"><a className="index-link">Services</a></li>
-        <li className="index"><a className="index-link">Projects</a></li>
-        <li className="index"><a className="index-link">Contact Me</a></li>
+        <li className="index"><NavLink className="index-link" to='/'>Home</NavLink></li>
+        <li className="index"><NavLink className="index-link" to='/about'>About</NavLink></li>
+        <li className="index"><NavLink className="index-link" to='/sevices'>Services</NavLink></li>
+        <li className="index"><NavLink className="index-link" to='/projects'>Projects</NavLink></li>
+        <li className="index"><NavLink className="index-link" to='/contact'>Contact Me</NavLink></li>
       </ul>
     </div>
   )
