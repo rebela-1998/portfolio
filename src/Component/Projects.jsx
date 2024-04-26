@@ -1,5 +1,12 @@
+import { useState } from 'react'
 import './Projects.css'
+import Modal from './Modal'
+
 const Projects = () => {
+  const [show,setShow]=useState(false)
+  
+  const closeLink=()=>setShow(false);
+ 
   return (
     <div className='projects'>
       <div className="project">
@@ -14,7 +21,10 @@ const Projects = () => {
         </div>
       </div>
       <div className="project">
-        <h1 className="project-exp">Personal Projects</h1>
+        <h1 className="project-exp">Personal Projects 
+        <button className='project-link' onClick={()=>setShow(true)}>Links</button>
+        </h1>
+        {show && <Modal closeLink={closeLink} />}
         <div className='project-container'>
           <h2 className="project-title">Snap Up</h2>
           <p className="details">Developed a responsive super market UI using React.js and Redux toolkit. Clone of Bigbasket.</p>

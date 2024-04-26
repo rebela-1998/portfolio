@@ -11,7 +11,7 @@ const Navbar = () => {
       <ul className="options">
         <li className="index"><NavLink className="index-link" to='/'>Home</NavLink></li>
         <li className="index"><NavLink className="index-link" to='/about'>About</NavLink></li>
-        <li className="index"><NavLink className="index-link" to='/services'>Services</NavLink></li>
+        <li className="index"><NavLink className="index-link" to='/services'>Experience</NavLink></li>
         <li className="index"><NavLink className="index-link" to='/projects'>Projects</NavLink></li>
         <li className="index"><NavLink className="index-link" to='/contact'>Contact Me</NavLink></li>
       </ul>

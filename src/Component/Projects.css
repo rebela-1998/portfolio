@@ -41,9 +41,35 @@
 
 }
 
+.project-link{
+    display: inline-block;
+    left: 18vw;
+    margin-top: 0.5vw;
+    position: absolute;
+    width: 6vw;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid rgb(247, 232, 99);
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    font-size: large;
+    color: rgb(247, 232, 99); 
+}
+
+.project-link:hover{
+    color: rgb(241, 237, 176); 
+    
+}
+
 @media screen and (min-width: 375px) and (max-width: 820px){
     .last{
         margin-bottom: 5vh;
         position: relative;
+    }
+
+    .project-link{
+        left: 66vw;
+        width: 18vw;
+        margin-top: 1vh;
     }
 }
