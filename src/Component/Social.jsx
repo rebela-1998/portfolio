@@ -5,7 +5,7 @@ const Social = () => {
         <div className='icons'>
             <ul className='icon-list'>
                 <li className='icon'>
-                <a className='mail-link' href="https://discord.com/users/rebela9820"><img src="\assets\discord.svg" alt="discord link"/></a>
+                <a className='mail-link' href="https://discord.com/users/rebela9820" target='_blank'><img src="\assets\discord.svg" alt="discord link"/></a>
                 </li>
                 <li className='icon'>
                     <a className='linkedIn-link' href="https://www.linkedin.com/in/rebela-ray-7705011a6/" target='_blank'><img src="\assets\linkedIn.svg" alt="linkedIn link"/></a>
