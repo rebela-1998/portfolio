@@ -39,3 +39,21 @@
     background-color: rgb(245, 228, 75);
     background-image: none;
 }
+
+@media screen and (min-width: 375px) and (max-width: 820px){
+    .greet{
+        font-size: 6vw;
+    }
+    .introduce{
+        font-size: 4vw;
+        position: absolute;
+        margin-top: 5vh;
+    }
+
+    .resume{
+        font-size: 2vw;
+        width: 15vh;
+        height: 3em;
+        margin-top: 15vh;
+    }
+}

@@ -54,3 +54,10 @@
     color: rgba(255, 255, 255, 0.877);
     text-decoration: none;
 }
+
+@media screen and (min-width: 375px) and (max-width: 820px){
+    .options{
+        font-size: 2vw;
+        width: 60%;
+    }
+}

@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     top: 30%;
-    right: 20%;
+    right: 15%;
     border: 1px solid white;
     border-radius: 50%;
     border-right: 30%;
@@ -22,4 +22,12 @@
     background-color: rgb(247, 232, 99);
     padding: 6px;
     /* box-shadow: 2px 2px 6px 5px rgb(228, 228, 92)  */
+}
+
+@media screen and (min-width: 375px) and (max-width: 820px){
+    .dp{
+        width: 35vw;
+        height: 30vh;
+    }
+    
 }

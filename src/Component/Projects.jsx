@@ -25,7 +25,7 @@ const Projects = () => {
         </div>
         <div className='project-container'>
           <h2 className="project-title">Portfolio</h2>
-          <p className="details">Developed a responsive self portfolio UI using React.js.</p>
+          <p className="details last">Developed a responsive self portfolio UI using React.js.</p>
         </div>
       </div>
     </div>

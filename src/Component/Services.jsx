@@ -11,7 +11,7 @@ const Services = () => {
       <h2 className="company">Cognizant Technology Solutions</h2>
       <p className='period'>August 2020 - September 2022</p>
       <p className="role">Programmer Analyst</p>
-      <p className="skills">Selenium, Cucumber,Java, API, Google Cloud Platform,Rest Assured, Git, Jenkins</p>
+      <p className="skills last">Selenium, Cucumber,Java, API, Google Cloud Platform,Rest Assured, Git, Jenkins</p>
     </div>
   )
 }
