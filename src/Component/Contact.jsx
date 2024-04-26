@@ -19,7 +19,10 @@ const Contact = () => {
         <h1 className="channel-name">You can find me on linkedIn by</h1>
         <p className="conact-details linkedIn">
         <img src="\assets\linkedInWhite.svg" alt="linkedIn link"/>
-          https://www.linkedin.com/in/rebela-ray-7705011a6/</p>
+          <a className='linkedIn-link' href='https://www.linkedin.com/in/rebela-ray-7705011a6/' target='_blank'>
+            https://www.linkedin.com/in/rebela-ray-7705011a6/
+            </a>
+            </p>
       </div>
     </div>
   )
