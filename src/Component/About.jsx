@@ -13,13 +13,13 @@ const About = () => {
             </p>
             <p className="more-details">
                 I joined Tata Consultancy Sevices in 2022 to pursue my passion in UI development. I have worked with React.js, Redux toolkit HTML, CSS, Javascript during this period.
-                </p>
-                <p className="more-details">
+            </p>
+            <p className="more-details">
                 It got interesting to learn and work with React.js and Redux as these modern javascript libraries are powerhouse and these help us developers to craft interactive UIs with ease.
-                </p>
-                <p className="more-details">
+            </p>
+            <p className="more-details">
                 I have desire to learn and work with more interesting modern libraries like Next.js and also extend my skills towards backend development like MERN stack.
-                <br/>
+                <br />
                 I am excited to make the leap and continue to refining my skills with the right company.
             </p>
         </div>

@@ -1,0 +1,37 @@
+.contact{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 26vh;
+    left: 10vw;
+    right: 5vw;
+    color: rgba(255, 255, 255, 0.849);
+    row-gap: 5vh;
+}
+
+.contact-channel{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+}
+
+.channel-name{
+    font-size: 1.8em;
+    font-weight: 500;
+    color: rgb(255, 240, 105);
+    font-family: "Raleway", sans-serif;
+ 
+}
+
+.conact-details{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+}
+
+.mail, .call, .linkedIn{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vw;
+    color: white;
+}

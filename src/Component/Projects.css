@@ -1,0 +1,42 @@
+.projects{
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 20vh;
+    left: 10vw;
+    right: 5vw;
+    color: rgba(255, 255, 255, 0.849);
+    row-gap: 6vh;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+}
+.project-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+.project-exp, .project-title{
+    font-family: "Raleway", sans-serif;
+}
+.project-exp{
+    font-size: 1.8em;
+    font-weight: 600;
+    color: rgb(247, 232, 99); 
+}
+
+.project-title{
+    font-size: 1.3em;
+    font-weight: 500;
+    color: rgb(219, 206, 91); 
+}
+
+.details{
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+
+}
